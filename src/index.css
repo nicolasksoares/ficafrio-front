@@ -1,0 +1,84 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  ::placeholder {
+    color: black;
+  }
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --radius: 0.625rem;
+  --background: 0 0% 100%;
+  --foreground: 210 60% 15%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 210 60% 15%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 210 60% 15%;
+
+  /* FicaFrio Blue Primary - #007BFF */
+  --primary: 211 100% 50%;
+  --primary-foreground: 0 0% 100%;
+  
+  /* FicaFrio Dark Blue - #004C97 */
+  --primary-dark: 210 100% 30%;
+  
+  /* FicaFrio Light Blue - #EAF3FA */
+  --primary-light: 210 60% 96%;
+
+  --secondary: 210 40% 96%;
+  --secondary-foreground: 210 60% 15%;
+
+  --muted: 210 40% 96%;
+  --muted-foreground: 210 20% 50%;
+
+  --accent: 211 100% 50%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 210 30% 88%;
+  --input: 210 30% 88%;
+  --ring: 211 100% 50%;
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, hsl(211 100% 50%), hsl(210 100% 30%));
+  --gradient-hero: linear-gradient(to bottom, hsl(211 100% 50% / 0.95), hsl(210 100% 30% / 0.98));
+  --gradient-light: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 60% 96%));
+  
+  /* Shadows */
+  --shadow-card: 0 2px 8px hsl(211 100% 50% / 0.08);
+  --shadow-hover: 0 8px 24px hsl(211 100% 50% / 0.15);
+  
+  /* Transitions */
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  --sidebar-background: 0 0% 98%;
+
+  --sidebar-foreground: 240 5.3% 26.1%;
+
+  --sidebar-primary: 240 5.9% 10%;
+
+  --sidebar-primary-foreground: 0 0% 98%;
+
+  --sidebar-accent: 240 4.8% 95.9%;
+
+  --sidebar-accent-foreground: 240 5.9% 10%;
+
+  --sidebar-border: 220 13% 91%;
+
+  --sidebar-ring: 217.2 91.2% 59.8%;
+}
